@@ -5,8 +5,15 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    "gatsby-plugin-emotion",
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-source-datocms`,
+      options: {
+        apiToken: `ad85d99edbdcc0a58d5dc3719e219d`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
