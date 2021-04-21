@@ -21,6 +21,7 @@ const NavLink = styled(Link)`
   text-decoration: none;
   padding: 1rem;
   margin-right: 1rem;
+  border-bottom: 2px solid #00000000;
   &:last-of-type {
     margin-right: 0;
   }
